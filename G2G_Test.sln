@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G2G_Test", "G2G_Test\G2G_Test.csproj", "{533F0839-14B9-4846-A564-37C5DF13B1BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{533F0839-14B9-4846-A564-37C5DF13B1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533F0839-14B9-4846-A564-37C5DF13B1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533F0839-14B9-4846-A564-37C5DF13B1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533F0839-14B9-4846-A564-37C5DF13B1BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01AC353B-607A-4AD1-AEA7-E44A5BEC8E24}
+	EndGlobalSection
+EndGlobal
