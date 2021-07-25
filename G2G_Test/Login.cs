@@ -27,6 +27,15 @@ namespace G2G_Test
             DriverEngine.driver.FindElement(By.XPath("//button[text()='Login']")).Click();
         }
 
+        public static void EnterDevicePin()
+        {
+            string pin = Email.GetDevicePin();
+
+
+
+         
+        }
+
         public static void VerifyLogin()
         {
             //verify profile logged in

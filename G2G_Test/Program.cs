@@ -14,12 +14,16 @@ namespace G2G_Test
     {
         static void Main(string[] args)
         {
-            DriverEngine.GoToWebsite(URLLoader.LoadHomepage());
+            /*DriverEngine.GoToWebsite(URLLoader.LoadHomepage());
 
             Login.VerifyHomepage();
             General.GoToLoginPage();
             Login.LoginFlow();
-            Login.VerifyLogin();
+            Login.VerifyLogin();*/
+
+            DriverEngine.GoToWebsite("https://mail.google.com/mail/u/0/");
+            Email.LoginGmail();
+            Console.WriteLine("pin:"+Email.GetDevicePin());
         }
     }
 }

@@ -6,6 +6,7 @@ using System.Xml;
 using System.IO;
 using NUnit;
 using NUnit.Framework;
+using System.Threading;
 
 
 namespace G2G_Test
@@ -13,11 +14,16 @@ namespace G2G_Test
     class DriverEngine
     {
         public static IWebDriver driver = new ChromeDriver();
-       
+
+        public static ChromeOptions options = new ChromeOptions();
         public static void GoToWebsite(string url)
         {
+            string path = @"C:/Users/mohdz/AppData/Local/Google/Chrome/User Data/Default";
+            options.AddArguments("user-data-dir="+ path);
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl(url);
+
+            Thread.Sleep(4000);
         }
     }
 
